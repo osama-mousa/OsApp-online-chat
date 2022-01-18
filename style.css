@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+.chat-card {
+    width: auto;
+}
+
+body {
+    background: #7F00FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+    color: rgb(250, 225, 234);
+    font-family: "Poppins", sans-serif;
+}
+
+.footer {
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 auto;
+    min-width: 640px;
+}
